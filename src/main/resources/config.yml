@@ -1,0 +1,4 @@
+# TimeFreeze Configuration
+
+# The item used to freeze time (must be a valid Material enum)
+freeze_item: CLOCK

@@ -1,0 +1,16 @@
+name: TimeFreeze
+version: '1.21-SNAPSHOT'
+main: studio.redpanda.timeFreeze.TimeFreeze
+api-version: '1.21'
+description: A plugin to freeze time with a right-click
+commands:
+  timefreeze:
+    description: Reload the TimeFreeze plugin configuration
+    usage: /<command> reload
+permissions:
+  timefreeze.use:
+    description: Allows players to use the time-freezing item
+    default: true
+  timefreeze.reload:
+    description: Allows players to reload the plugin configuration
+    default: op
